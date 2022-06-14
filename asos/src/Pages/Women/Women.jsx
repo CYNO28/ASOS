@@ -4,8 +4,8 @@ const Men = () => {
   const background =
     "https://content.asos-media.com/-/media/homepages/unisex/homepages/2021/12_dec/sale/xmas-sale-2021/single-gradient/1/desktop.jpg";
 const saleimg="https://content.asos-media.com/-/media/homepages/unisex/homepages/2022/sale-lockups/sale/dt-white/215_40_dt_sale_white_uk_rosv2.png"
-const secbackground="https://content.asos-media.com/-/media/homepages/mw/2022/june/06/hero/mw1_dt_hero_1258x600.jpg"
-const secbackgroundsmall='https://content.asos-media.com/-/media/homepages/mw/2022/june/06/hero/mw_1mob_hero_640x692.jpg'
+const secbackground="https://content.asos-media.com/-/media/homepages/ww/2022/june/06/hero/hero_1258x600.jpg"
+const secbackgroundsmall="https://content.asos-media.com/-/media/homepages/ww/2022/june/06/hero/mob_hero_640x692.jpg"
 const bannerimg="https://content.asos-media.com/-/media/homepages/unisex/homepages/2022/06_june/pride-2022/uk/pride_hp_p1_final_dt_1258_150-v2-new.png"
   return (
     <div>
