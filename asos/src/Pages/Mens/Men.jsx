@@ -1,5 +1,5 @@
 import React from "react";
-
+import style from '../../Styles/Pages/Men.module.css'
 const Men = () => {
   const background =
     "https://content.asos-media.com/-/media/homepages/unisex/homepages/2021/12_dec/sale/xmas-sale-2021/single-gradient/1/desktop.jpg";
