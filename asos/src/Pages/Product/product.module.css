@@ -90,4 +90,32 @@
     border: 0.5px solid rgb(83, 83, 83);
     padding: 20px;
  }
+.extraD{
+    display: flex;
+    width: 60%;
+    margin: 10rem auto;
+   justify-content: space-around;
+}
 
+.footCarousal{
+    border: 2px solid red;
+    height: 35vh;
+    display: flex;
+    width: 60%;
+    margin: 10rem auto;
+    flex-direction: column;
+}
+.footCarousal>div{
+    display: flex;
+    border: 1px solid green;
+    width: 90%;
+    overflow: scroll;
+    overflow-y: hidden;
+    gap: 20px;
+}
+.footCarousal>div>img{
+  width: 25%;
+}
+.footCarousal>div::-webkit-scrollbar{
+    display: none;
+}
