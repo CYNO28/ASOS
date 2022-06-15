@@ -53,3 +53,57 @@ bottom: 0;
 width: 285px;
 letter-spacing: normal;
 }
+div.secSection{
+    background-image: url(https://content.asos-media.com/-/media/homepages/mw/2022/june/06/hero/mw1_dt_hero_1258x600.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position-x:50% ;
+    background-position-y:0% ;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.summerj{
+    font-family :futura-pt, FuturaStd, Helvetica, Arial, sans-serif;
+
+background-color: white;
+/* border: 1px solid red; */
+width: fit-content;
+
+}
+.summerj>span{
+    margin: 0;
+    text-align: center;
+    width: 364px;
+    height: 77px;
+    font-weight: 700;
+    text-size-adjust: 100%;
+    letter-spacing: 1px;
+    vertical-align: baseline;
+font-size: 60px;
+}
+.secbtn{
+    background-color: #fff;
+    color:black;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.imgbox>img{
+height:310px ;
+width:243px ;
+}
+.imgbox>p{
+    margin: 0;
+}
+.thirdSection{
+    display: flex;
+    gap: 20px;
+    margin: 3rem;
+    text-align: center;
+}
+.fourthSection{
+    background-image: url(https://content.asos-media.com/-/media/homepages/unisex/homepages/2022/06_june/pride-2022/uk/pride_hp_p1_final_dt_1258_150-v2-new.png);
+    height: 150px;
+    margin:4rem 0 ;
+}

@@ -3,9 +3,9 @@ import style from './Men.module.css'
 const Men = () => {
   
 const saleimg="https://content.asos-media.com/-/media/homepages/unisex/homepages/2022/sale-lockups/sale/dt-white/215_40_dt_sale_white_uk_rosv2.png"
-const secbackground="https://content.asos-media.com/-/media/homepages/mw/2022/june/06/hero/mw1_dt_hero_1258x600.jpg"
+
 const secbackgroundsmall='https://content.asos-media.com/-/media/homepages/mw/2022/june/06/hero/mw_1mob_hero_640x692.jpg'
-const bannerimg="https://content.asos-media.com/-/media/homepages/unisex/homepages/2022/06_june/pride-2022/uk/pride_hp_p1_final_dt_1258_150-v2-new.png"
+
   return (
     <div>
       Men
@@ -25,6 +25,37 @@ const bannerimg="https://content.asos-media.com/-/media/homepages/unisex/homepag
         </div>
         <p className={style.topdis}> Limited time only. Selected styles marked down as shown.</p>
       </div>
+      <div className={style.secSection}>
+          <button className={style.secbtn}>SHOP ASOS DESIGN</button>
+        <div className={style.summerj}>
+      <span>  
+        Summer juice
+        </span>
+      </div>
+      </div>
+      <div className={style.thirdSection}>
+        <div className={style.imgbox}>
+          <img src="https://content.asos-media.com/-/media/homepages/mw/2022/june/06/moments/mw_asos_design_festive_jewels_moment_870x1110.jpg" alt="" />
+          <h3>ASOS DESIGN JEWELS</h3>
+          <p>E-boy energy</p>
+        </div>
+        <div className={style.imgbox}>
+          <img src="https://content.asos-media.com/-/media/homepages/mw/2022/june/06/moments/mw_au_footwear_moment_870x1110.jpg" alt="" />
+          <h3>SHOES</h3>
+          <p>Sneaky picks</p>
+        </div>
+        <div className={style.imgbox}>
+          <img src="https://content.asos-media.com/-/media/homepages/mw/2022/june/06/moments/mw_asos_design_skate_prints_moment_870x1110.jpg" alt="" />
+          <h3>SKATE PRINTS</h3>
+          <p>Punk perfection by ASOS DESIGN</p>
+        </div>
+        <div className={style.imgbox}>
+          <img src="https://content.asos-media.com/-/media/homepages/mw/2022/june/06/moments/mw_hiit_moment_870x1110.jpg" alt="" />
+          <h3>HIIT</h3>
+          <p>Ready,sweat,go!</p>
+        </div>
+      </div>
+      <div className={style.fourthSection}></div>
     </div>
   );
 };
