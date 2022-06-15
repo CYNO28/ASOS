@@ -1,4 +1,55 @@
-button{
+button.middlebtn{
     background-color: #fff;
     color:black;
+    letter-spacing: 2px;
+    font-family: futura-pt, FuturaStd, Helvetica, Arial, sans-serif
+    ;
+    font-weight:700 ;
+    color: rgb(0,0,0);
+    text-align: center;
+    padding: 16px 30px;
+    width: 184px;
+    font-size: 16px;
+    max-height: 44px;
+   
+}
+div.sale_img{
+    border-radius: 20px;
+    /* border: 1px solid red; */
+    max-width: 276px;
+    height:50px;
+}
+.top_section{
+    background-image: url(https://content.asos-media.com/-/media/homepages/unisex/homepages/2021/12_dec/sale/xmas-sale-2021/single-gradient/1/desktop.jpg);
+    background-size: cover;
+    background-position-x:50% ;
+    background-position-y:0% ;
+    height: 554px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 24px;
+    position: relative;
+    padding: 24px 0 8px;
+}
+.salespan{
+    font-family :futura-pt, FuturaStd, Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    font-style: italic;
+    color: #333;
+    line-height: 40px;
+    letter-spacing: 2.8px;
+    margin: 24px 0 24px;
+    
+}
+.topdis{
+    font-family :futura-pt, FuturaStd, Helvetica, Arial, sans-serif;
+
+font-size: 11px;
+position: absolute;
+bottom: 0;
+width: 285px;
+letter-spacing: normal;
 }
