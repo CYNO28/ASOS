@@ -1,0 +1,47 @@
+.pageDiv{
+    background-color: #eeeeee;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    padding-top: 20px;
+}
+.joinSection{
+    background-color: white;
+    width: 45%;
+    margin: auto;
+    padding-bottom: 30px;
+    margin-top: -15px;
+}
+.title{
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: -5px;
+}
+.topButton{
+    border: none;
+    border-bottom: 2px solid #eeeeee;
+    height: 50px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 900;
+    width: 50%;
+    color: #2d2d2d;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.topButton:focus{
+    border-bottom: 2px solid rgb(15, 15, 204);
+}
+.topButtonsDiv{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.vl{
+    border: 1px solid #eeeeee;
+    height: 20px;
+    margin-top: 54px;
+}
