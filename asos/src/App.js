@@ -8,9 +8,8 @@ import Women from './Pages/Women/Women';
 function App() {
   return (
     <div className="">
-   {/* <Product /> */}
-{/* <Men/> */}
-<Women/>
+
+
 <Footer/>
     </div>
   );
