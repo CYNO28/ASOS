@@ -111,3 +111,24 @@ flex-grow: 1;
     height: 150px;
     margin:4rem 0 ;
 }
+.fifthSection{
+    display: flex;
+    justify-content: center;
+    gap:3rem
+}
+
+.imgbox1>img{
+    width: 498px;
+    height: 650px;
+    
+
+}
+.imgbox1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgbpx1>button.fibtn{
+color: black;
+background-color: #fff;
+}

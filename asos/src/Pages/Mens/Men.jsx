@@ -55,6 +55,20 @@ const secbackgroundsmall='https://content.asos-media.com/-/media/homepages/mw/20
           <p>Ready,sweat,go!</p>
         </div>
       </div>
+      <div className={style.fifthSection}>
+        <div className={style.imgbox1}>
+        <img src="https://content.asos-media.com/-/media/homepages/mw/2022/june/06/moments/mw_gbl_topman_moment_870x1110v2.jpg"></img>
+        <h2>TOPMAN</h2>
+        <p>Top-tier threads</p>
+        <button className={style.fibtn}>SHOP THE BRAND</button> 
+        </div>
+        <div className={style.imgbox1}>
+<img src="https://content.asos-media.com/-/media/homepages/mw/2022/june/06/moments/mw_swim_moment_870x1110.jpg"></img>
+<h2>SWIM ESSENTIALS</h2>
+<p>Everthing's just beachy</p>
+<button className={style.fifbtn}>SHOP NOW</button> 
+        </div>
+      </div>
       <div className={style.fourthSection}></div>
     </div>
   );
