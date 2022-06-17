@@ -55,6 +55,8 @@ const secbackgroundsmall='https://content.asos-media.com/-/media/homepages/mw/20
           <p>Ready,sweat,go!</p>
         </div>
       </div>
+      <div className={style.fourthSection}></div>
+
       <div className={style.fifthSection}>
         <div className={style.imgbox1}>
         <img src="https://content.asos-media.com/-/media/homepages/mw/2022/june/06/moments/mw_gbl_topman_moment_870x1110v2.jpg"></img>
@@ -69,7 +71,17 @@ const secbackgroundsmall='https://content.asos-media.com/-/media/homepages/mw/20
 <button className={style.fifbtn}>SHOP NOW</button> 
         </div>
       </div>
-      <div className={style.fourthSection}></div>
+      <div className={style.sixSection}>
+        <h2>TRENDING BRANDS</h2>
+        <div className={style.imgflexbox}>
+        <img src="https://content.asos-media.com/-/media/homepages/unisex/brands-logos/256x256/monkl-hp-logos-256x256.jpg" alt="" />
+        <img src="https://content.asos-media.com/-/media/homepages/unisex/brands-logos/256x256/never-fully-dressed-hp-logos-256x256.png" alt="" />
+        <img src="https://content.asos-media.com/-/media/homepages/unisex/brands-logos/256x256/collusion-hp-logos-256x256.jpg" alt="" />
+        <img src="https://content.asos-media.com/-/media/homepages/unisex/brands-logos/256x256/reclaimed-vintage-hp-logos-256x256.jpg" alt="" />
+        <img src="https://content.asos-media.com/-/media/homepages/unisex/brands-logos/256x256/1x12x---test.png" alt="" />
+    <img src="https://content.asos-media.com/-/media/homepages/unisex/brands-logos/256x256/weekday-hp-logos-256x256.jpg" alt="" />
+    </div>
+      </div>
     </div>
   );
 };
