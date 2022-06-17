@@ -1,11 +1,15 @@
 .Cimgbox>img{
 width: 182px;
 height: 232px;
+margin-bottom: -.25rem;
 }
 .Cimgbox p{
-    border: 1px solid red;
+    font-weight: 700;
     font-size: 1rem;
+    /* border: 1px solid red; */
+    margin-top: 0;
     text-align: center;
+    padding: .5rem;
 }
 .Carousel{
     width: 75%!important;
@@ -16,6 +20,11 @@ height: 232px;
     
 }
 .Carousel>div>button{
-    border: 1px solid red !important;
+    border: none!important;
+    margin-top: -5rem;
     border-radius: 0 ;
+    height: 0rem;
+}
+.Carousel>div:nth-child(2){
+    display: none;
 }
