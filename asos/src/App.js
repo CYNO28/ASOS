@@ -4,7 +4,7 @@ import Men from './Pages/Mens/Men';
 import Product from './Pages/ProductDetail/Product';
 import Footer from './component/footer/Footer'
 import Women from './Pages/Women/Women';
-import Carousel from './component/carousel/Carousel';
+import Carousels from './component/carousel/Carousel';
 
 function App() {
   return (
