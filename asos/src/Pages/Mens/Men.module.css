@@ -114,7 +114,8 @@ flex-grow: 1;
 .fifthSection{
     display: flex;
     justify-content: center;
-    gap:3rem
+    gap:3rem;
+    font-weight: 500;
 }
 
 .imgbox1>img{
@@ -128,7 +129,18 @@ flex-grow: 1;
     flex-direction: column;
     align-items: center;
 }
-.imgbpx1>button.fibtn{
+.imgbox1 h2{
+font-size: 1.8rem;
+margin-bottom: .5rem;
+}
+.imgbox1 p{
+    font-size: 1.2rem;
+    margin-bottom: 1.25rem;
+}
+.imgbox1 button{
 color: black;
 background-color: #fff;
+border: 2px solid black;
+font-size: 1rem;
+padding: 15px 40px;
 }
