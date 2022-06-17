@@ -54,7 +54,7 @@ width: 285px;
 letter-spacing: normal;
 }
 div.secSection{
-    background-image: url(https://content.asos-media.com/-/media/homepages/mw/2022/june/06/hero/mw1_dt_hero_1258x600.jpg);
+    background-image: url(https://content.asos-media.com/-/media/homepages/ww/2022/june/06/hero/hero_1258x600.jpg);
     height: 600px;
     background-size: cover;
     background-position-x:50% ;
@@ -82,13 +82,19 @@ width: fit-content;
     letter-spacing: 1px;
     vertical-align: baseline;
 font-size: 60px;
+padding: 0 8px;
 }
 .secbtn{
     background-color: #fff;
     color:black;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 13px 15px;
     margin-top: 2rem;
+    border: none;
     margin-bottom: 4rem;
 }
+
 .imgbox>img{
 max-height:23rem ;
 max-width:18rem ;
@@ -145,25 +151,26 @@ font-size: 1rem;
 padding: 15px 40px;
 }
 
+/*  .................. */
 .secbtn:hover{
-    background-color: black;
-    color: #fff;
-    }
-    .sixSection{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 2rem;
-        margin-bottom: 4rem;
-    }
-    .sixSection>div{
-        display:flex ;
-        /* width: 100%; */
-        gap: 2rem;
-        flex-wrap: wrap;
-    }
-    .sixSection>div img{
-        width: 193px;
-        height: 193px;
-    }
+background-color: black;
+color: #fff;
+}
+.sixSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.sixSection>div{
+    display:flex ;
+    /* width: 100%; */
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.sixSection>div img{
+    width: 193px;
+    height: 193px;
+}

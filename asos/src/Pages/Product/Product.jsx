@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+  import React, { useState } from "react";
 import {
   FaArrowAltCircleRight,
   FaArrowAltCircleLeft,
@@ -93,7 +93,7 @@ const Product = () => {
             <option value="">XL</option>
           </select>
           <div>
-            <button>ADD TO BAG </button>
+            <button className={styles.btn}>ADD TO BAG </button>
             <FaRegHeart />
           </div>
           <div>
