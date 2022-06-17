@@ -79,7 +79,7 @@
  select{
     padding: 5px;
  }
- button{
+ .btn{
     background-color: green;
     color: aliceblue;
     border: none;
