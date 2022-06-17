@@ -8,8 +8,9 @@ const breakPoints = [
   { width: 3, itemsToShow: 3 },
   { width: 4, itemsToShow: 4 },
   { width: 5, itemsToShow: 5 },
+  { width: 5, itemsToShow: 6 },
 ];
-const Carousels = () => {
+const CarouselsW = () => {
   return (
     <>
     
@@ -47,7 +48,11 @@ const Carousels = () => {
               <img src="https://images.asos-media.com/products/asos-design-recycled-frame-chunky-square-sunglasses-with-colour-block-bevel/201734940-1-multi?$n_640w$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000" alt="" />
               <p>ACCESSORIES</p>
             </div>
-          
+            
+            <div className={style.Cimgbox}>
+              <img src="https://images.asos-media.com/products/nike-pro-training-zip-front-crop-top-in-blue/201526374-1-blue?$n_640w$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000" alt="" />
+              <p>SPORTS BRANDS</p>
+            </div>
           
             <div className={style.Cimgbox}>
               <img src="https://images.asos-media.com/products/love-other-things-towelling-triangle-bikini-with-heart-ring-detail-in-purple/202616760-1-purple?$n_640w$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000" alt="" />
@@ -61,4 +66,4 @@ const Carousels = () => {
   );
 };
 
-export default Carousels;
+export default CarouselsW;

@@ -5,14 +5,17 @@ margin-bottom: -.25rem;
 }
 .Cimgbox p{
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 13px;
     /* border: 1px solid red; */
     margin-top: 0;
     text-align: center;
     padding: .5rem;
+    background-color: azure;
+    height: 2rem;
+    
 }
 .Carousel{
-    width: 75%!important;
+    width: 85%!important;
     height: 10%;
     position: relative;
     overflow: hidden;
