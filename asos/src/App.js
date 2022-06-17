@@ -1,4 +1,5 @@
 import React from 'react';
+import SubNav from './component/subNavbar/SubNav';
 import Men from './Pages/Mens/Men';
 import Product from './Pages/Product/Product';
 
@@ -6,8 +7,9 @@ import Product from './Pages/Product/Product';
 function App() {
   return (
     <div className="">
-   {/* <Product /> */}
-<Men/>
+   
+       <Men/>
+
     </div>
   );
 }

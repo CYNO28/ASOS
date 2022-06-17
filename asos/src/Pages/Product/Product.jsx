@@ -133,6 +133,8 @@ const Product = () => {
             {SliderData.map((el)=>{
              return   <img src={el.image} alt="" />
             })}
+
+            
           </div>
      </div>
     </div>
