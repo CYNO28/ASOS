@@ -5,6 +5,7 @@ import {useSelector,useDispatch} from "react-redux"
 import { getData } from "../../Store/action";
 const Products = () => {
   const {pathname}=useLocation()
+  
   const [data,setData]=React.useState({})
   const name=pathname.split("/")[1]
   const type=pathname.split("/")[2]
