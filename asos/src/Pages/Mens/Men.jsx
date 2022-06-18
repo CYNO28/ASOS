@@ -1,4 +1,5 @@
 import React from "react";
+import CarouselsM from "../../component/carousel/CarouselM";
 import style from './Men.module.css'
 const Men = () => {
   
@@ -19,7 +20,11 @@ const secbackgroundsmall='https://content.asos-media.com/-/media/homepages/mw/20
             </h2> 
                 </span>
         </div>
-        <div className="crousel"></div>
+        <div className={style.cru}>
+      <CarouselsM />
+
+        </div>
+        {/* <div className="crousel"></div> */}
         <div className="view-all-btn">
             <button className={style.middlebtn}>VIEW ALL</button>
         </div>
