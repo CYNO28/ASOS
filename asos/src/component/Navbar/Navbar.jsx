@@ -5,6 +5,7 @@ import { SearchIcon} from '@chakra-ui/icons'
 import { FaRegHeart ,FaRegQuestionCircle,FaShoppingBag, FaUser, FaUserAlt } from 'react-icons/fa'
 import {BsChatLeftText} from 'react-icons/bs'
 import {Link} from 'react-router-dom'
+import SubNav from '../subNavbar/SubNav'
  
 const Navbar = ( ) => {
 
@@ -110,6 +111,7 @@ const Navbar = ( ) => {
                
                </div>
 
+  <SubNav/>
               
                <div  className={styles.thirdDiv}>
                   <Link to="/women" style={{marginLeft:"300px"}} className={styles.thirdbtn}>WOMEN</Link>
@@ -171,7 +173,6 @@ const Navbar = ( ) => {
                 </div> */}
 
                
-  
        </div>
   )
 }
