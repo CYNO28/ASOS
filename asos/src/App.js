@@ -26,6 +26,21 @@ function App() {
           <Route path={'/join'} element={<Join></Join>}></Route>
           <Route path={'/join'} element={<Join></Join>}></Route>
           <Route path={'/women/womenTop'} element={<Products/>}/>
+          <Route path={'/women/womensandle'} element={<Products/>}/>
+          <Route path={'/women/shoes'} element={<Products/>}/>
+          <Route path={'/women/dress'} element={<Products/>}/>
+          <Route path={'/women/gymwear'} element={<Products/>}/>
+          <Route path={'/men/shirts'} element={<Products/>}/>
+          <Route path={'/men/jeans'} element={<Products/>}/>
+          <Route path={'/men/T-shirts'} element={<Products/>}/>
+          <Route path={'/men/menshoes'} element={<Products/>}/>
+          <Route path={'/men/mencap'} element={<Products/>}/>
+          <Route path={'/brand/nike'} element={<Products/>}/>
+          <Route path={'/brand/calvin_klain'} element={<Products/>}/>
+          <Route path={'/brand/jack&jones'} element={<Products/>}/>
+          <Route path={'/bodycare/hairproduct'} element={<Products/>}/>
+          <Route path={'/bodycare/skincare'} element={<Products/>}/>
+
           {/* <Route path={'/product/tops'} element={<Products/>}/> */}
            <Route path={'/cart'} element={<Cart></Cart>}></Route>
           {/* <Route path={'/'} element={<></>}></Route> */}

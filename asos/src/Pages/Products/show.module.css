@@ -1,0 +1,24 @@
+.productimg{
+    width:304px ;
+    height:404px ;
+}
+.productdiv{
+    display: flex;
+    flex-direction: column;
+    width:304px;
+    justify-content: space-between;
+}
+.producttitle{
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family:futura-pt, sans-serif
+    inhe;
+    color: #2d2d2d;
+    letter-spacing: .5px;
+    
+    width: 100%;
+}
+.productprice{
+    color: #666;
+    font-weight: 700;
+}
