@@ -9,7 +9,7 @@ const secbackgroundsmall='https://content.asos-media.com/-/media/homepages/mw/20
 
   return (
     <div>
-     WOMen
+     
       <div className={style.top_section}>
         <div className={style.sale_img}> <img src={saleimg} alt="" /></div>
         <div >
