@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../components/Navbar.module.css'
+import styles from './Navbar.module.css'
 import { IconButton, Input, InputGroup, InputRightElement} from '@chakra-ui/react'
 import { SearchIcon} from '@chakra-ui/icons'
 import { FaRegHeart ,FaRegQuestionCircle,FaShoppingBag, FaUser, FaUserAlt } from 'react-icons/fa'

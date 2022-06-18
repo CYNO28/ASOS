@@ -165,10 +165,6 @@
   /* width: 100%; */
 }
 
-.dropdown:hover .secondICOn1{
- 
-   
-}
 /* ............................................ */
 
 .thirdDiv {
@@ -216,8 +212,8 @@
   color: blue;
 }
 /* .......................... */
-
-/* .container {
+/* 
+ .container {
   position: relative;
   text-align: center;
   color: white;
@@ -290,4 +286,4 @@
   color: white;
   margin-top: -10px;
   margin-bottom: 10px;
-} */
+}  */

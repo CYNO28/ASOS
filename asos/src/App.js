@@ -8,16 +8,19 @@ import { Route, Routes } from 'react-router-dom';
 import Join from './Pages/Join/Join';
 import JoinPage from './Pages/Join Page/JoinPage';
 import SingIn from './Pages/SignIn/SingIn';
+import Navbar from './component/Navbar/Navbar';
+import Home from './Pages/home/Home';
 
 
 function App() {
   return (
-      <div className="">
-        <SubNav />
+      <div>
+        <Navbar/>
+  
         <Routes>
-          <Route path={'/'} element={<></>}></Route>
+          <Route path={'/'} element={<Home></Home>}></Route>
           <Route path={'/men'} element={<Men></Men>}></Route>
-          <Route path={'/wome'} element={<Women></Women>}></Route>
+          <Route path={'/women'} element={<Women></Women>}></Route>
           <Route path={'/join'} element={<Join></Join>}></Route>
           {/* <Route path={'/'} element={<></>}></Route> */}
 
