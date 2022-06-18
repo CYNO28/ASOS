@@ -37,7 +37,7 @@ const Navbar = ( ) => {
 
                <div  className={styles.secondDiv}>
                  
-                    <Link to="/home"  className={styles.secondLink}>asos</Link> 
+                    <Link to="/"  className={styles.secondLink}>asos</Link> 
                     
                     <span className={styles.secondspan}>|</span>
                    

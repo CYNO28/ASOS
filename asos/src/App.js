@@ -10,6 +10,7 @@ import JoinPage from './Pages/Join Page/JoinPage';
 import SingIn from './Pages/SignIn/SingIn';
 import Navbar from './component/Navbar/Navbar';
 import Home from './Pages/home/Home';
+import Cart from './Pages/Cart/Cart';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path={'/men'} element={<Men></Men>}></Route>
           <Route path={'/women'} element={<Women></Women>}></Route>
           <Route path={'/join'} element={<Join></Join>}></Route>
+          <Route path={'/cart'} element={<Cart></Cart>}></Route>
           {/* <Route path={'/'} element={<></>}></Route> */}
 
         </Routes>
