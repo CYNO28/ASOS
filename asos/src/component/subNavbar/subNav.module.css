@@ -54,6 +54,7 @@
   top: 65px;
   opacity: 1;
   visibility: visible;
+  z-index: 999;
   transition: all 0.3s ease-in-out;
 }
 .dropMenu li a {
