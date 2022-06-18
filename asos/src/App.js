@@ -10,6 +10,7 @@ import Join from './Pages/Join/Join';
 // import JoinPage from './Pages/J/oin Page/JoinPage';
 import SingIn from './Pages/SignIn/SingIn';
 import Home from './Pages/home/Home';
+import Products from './Pages/Products/ProductsM';
 // import Cart from './Pages/Cart/Cart';
 
 
@@ -23,6 +24,9 @@ function App() {
           <Route path={'/men'} element={<Men></Men>}></Route>/
           <Route path={'/women'} element={<Women></Women>}></Route> 
           <Route path={'/join'} element={<Join></Join>}></Route>
+          <Route path={'/join'} element={<Join></Join>}></Route>
+          <Route path={'/product/jean'} element={<Products/>}/>
+          <Route path={'/product/tops'} element={<Products/>}/>
            {/* <Route path={'/cart'} element={<Cart></Cart>}></Route> */}
           {/* <Route path={'/'} element={<></>}></Route> */}
 
