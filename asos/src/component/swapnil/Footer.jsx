@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
         <div className={style.footerTop}>
           <div className={style.box1}>
-            <img className={style.icon1} src="https://thumbs.dreamstime.com/b/facebook-logo-icon-voronezh-russia-november-square-blue-color-164585769.jpg" alt="" />
+            {/* <img className={style.icon1} src="https://thumbs.dreamstime.com/b/facebook-logo-icon-voronezh-russia-november-square-blue-color-164585769.jpg" alt="" /> */}
             <img className={style.icon1} src="https://thumbs.dreamstime.com/b/new-instagram-camera-logo-icon-purple-pink-vector-modern-gradient-design-illustrations-white-background-ai-138907950.jpg" alt="" />
             <img className={style.icon1} src="https://image.similarpng.com/very-thumbnail/2020/05/Glossy-Snapchat-logo-PNG.png" alt="" />
           </div>

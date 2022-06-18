@@ -11,7 +11,8 @@ import Join from './Pages/Join/Join';
 import SingIn from './Pages/SignIn/SingIn';
 import Home from './Pages/home/Home';
 import Products from './Pages/Products/ProductsM';
-// import Cart from './Pages/Cart/Cart';
+import Cart from './Pages/Cart/Cart';
+import JoinPage from './Pages/Join Page/JoinPage';
 
 
 function App() {
@@ -19,15 +20,15 @@ function App() {
       <div>
         <Navbar/>
   
-        <Routes>
+         <Routes>
           <Route path={'/'} element={<Home></Home>}></Route>
           <Route path={'/men'} element={<Men></Men>}></Route>/
           <Route path={'/women'} element={<Women></Women>}></Route> 
-          <Route path={'/join'} element={<Join></Join>}></Route>
+          <Route path={'/join'} element={<JoinPage></JoinPage>}></Route>
           <Route path={'/join'} element={<Join></Join>}></Route>
           <Route path={'/women/womenTop'} element={<Products/>}/>
           {/* <Route path={'/product/tops'} element={<Products/>}/> */}
-           {/* <Route path={'/cart'} element={<Cart></Cart>}></Route> */}
+           <Route path={'/cart'} element={<Cart></Cart>}></Route>
           {/* <Route path={'/'} element={<></>}></Route> */}
 
         </Routes>

@@ -3,6 +3,7 @@
     justify-content: space-evenly;
     width: 60%;
     margin: auto;
+    background-color: red;
     /* padding: 5px; */
 }
 .icon1{
@@ -10,6 +11,7 @@
     width: 28px;
     height: 28px;
     border-radius: 50%;
+    /* border: 1px solid; */
    
 }
 .icon2{
