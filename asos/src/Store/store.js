@@ -4,4 +4,4 @@ import thunk from "redux-thunk";
 
 
 
-export const store=legacy_createStore(reducer,applyMiddleware(thunk ));
+export const store=legacy_createStore(reducer,applyMiddleware(thunk));
