@@ -1,5 +1,5 @@
 const initialState={
-    data:[]
+    products:{}
 }
 
 
@@ -10,9 +10,15 @@ export const reducer = (state = initialState, {type,payload}) => {
             {
                 return {
                     ...state,
-                    data:payload
+                    products:payload
                 }
             }
+        case 'SET_DATA':{
+            return {
+                ...state,
+                
+            }
+        }    
    default:{
     return state;
    }
