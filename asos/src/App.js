@@ -11,7 +11,7 @@ import Join from './Pages/Join/Join';
 import SingIn from './Pages/SignIn/SingIn';
 import Home from './Pages/home/Home';
 import Products from './Pages/Products/ProductsM';
-import Cart from './Pages/Cart/Cart';
+// import Cart from './Pages/Cart/Cart';
 
 
 function App() {
