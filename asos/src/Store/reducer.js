@@ -1,24 +1,20 @@
 const initialState={
-    products:{}
+    Data:[]
 }
 
 
 
 export const reducer = (state = initialState, {type,payload}) => {
     switch (type) {
-        case 'GET_DATA':
+        case 'GET_DATA_SUCCESS':
             {
                 return {
                     ...state,
-                    products:payload
+                    Data:payload
                 }
             }
-        case 'SET_DATA':{
-            return {
-                ...state,
-                
-            }
-        }    
+    
+          
    default:{
     return state;
    }

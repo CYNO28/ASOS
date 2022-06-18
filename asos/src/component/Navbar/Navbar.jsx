@@ -30,7 +30,7 @@ const Navbar = ( ) => {
 
                         <div className={styles.firstdiinsideigmgdiv}>
           
-                            <img src="https://p.kindpng.com/picc/s/192-1929235_indian-flag-button-india-flag-button-png-transparent.png" className={styles.firstdivImg} alt="" srcset="" />
+                            <img src="https://p.kindpng.com/picc/s/192-1929235_indian-flag-button-india-flag-button-png-transparent.png" className={styles.firstdivImg} alt="" />
                             
                         </div>
 

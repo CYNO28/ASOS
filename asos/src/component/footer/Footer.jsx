@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
           <div>
             <ul type="none">
-              <li><h4><h4 className={style.heading}>ABOUT ASOS</h4></h4></li>
+              <li><h4 className={style.heading}>ABOUT ASOS</h4></li>
               <li><a className={style.anchor} href="https://www.asos.com/about/">About us</a></li>
               <li><a className={style.anchor} href="https://asoscareers.asos.com/">Careers at ASOS</a></li>
               <li><a className={style.anchor} href="https://www.asosplc.com/fashion-with-integrity/">Carporate responsibility</a></li>

@@ -6,12 +6,13 @@ import { getData } from "../../Store/action";
 const Products = () => {
   const {pathname}=useLocation()
   
-  const [data,setData]=React.useState({})
-  const name=pathname.split("/")[1]
+ 
+
   const type=pathname.split("/")[2]
   const dispatch=useDispatch()
-  const {products}=useSelector(state=>state)
-  console.log(products)
+  const Data=useSelector(state=>state.Data)
+
+
   useEffect(()=>{
 
 dispatch(getData(name))
@@ -25,7 +26,7 @@ return (
     <div>
       hello
    
-      {/* {data.map((e)=>(<div>{e}</div>))} */}
+    
     </div>
   );
 };
