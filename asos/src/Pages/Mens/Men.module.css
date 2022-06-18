@@ -167,3 +167,14 @@ padding: 15px 40px;
         width: 193px;
         height: 193px;
     }
+    .cru{
+    
+        width: 100%;
+       
+    }
+    .cru>div{
+    
+        height: 300px;
+        width: 100%;
+    
+    }
