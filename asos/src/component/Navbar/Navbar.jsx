@@ -75,8 +75,8 @@ const Navbar = ( ) => {
                         <div className={styles.dropdowncontent}>
                              
                             <div>
-                                 <Link to='#'className={styles.userA}>Sign In <span> | </span></Link>
-                                 <Link to='#' className={styles.userA}>Join</Link>
+                                 {/* <Link to='#'className={styles.userA}>Sign In <span> | </span></Link> */}
+                                 <Link to='/join' className={styles.userA}>Join</Link>
                             </div>
                               
 

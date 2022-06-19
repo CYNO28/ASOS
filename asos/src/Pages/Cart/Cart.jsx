@@ -5,7 +5,7 @@ import {AiOutlineInfoCircle} from 'react-icons/ai';
 import {BsBag} from 'react-icons/bs';
 
 const Cart = () => {
-    let cartItems=0;
+    let cartItems=1;
     const emptyCart = () => {
         return (
             <div className={styles.emptyCartDiv}>

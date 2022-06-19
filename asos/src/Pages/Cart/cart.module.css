@@ -1,6 +1,7 @@
 
 .container{
     background-color: #eeeeee;
+    /* margin-bottom: 10px; */
 }
 .box{
     display: flex;
@@ -22,7 +23,7 @@
     background-color: white;
     width: 35%;
     padding: 25px;
-    height: 300px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -118,7 +119,7 @@
 }
 .checkoutButton{
     background-color: #3c884a;
-    height: 70px;
+    height: 40px;
     border: none;
     color: white;
     font-weight: 900;
