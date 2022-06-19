@@ -26,7 +26,6 @@ function App() {
           <Route path={'/men'} element={<Men></Men>}></Route>/
           <Route path={'/women'} element={<Women></Women>}></Route> 
           <Route path={'/join'} element={<JoinPage></JoinPage>}></Route>
-          <Route path={'/join'} element={<Join></Join>}></Route>
           <Route path={'/ProductDetails'} element={<Product></Product>}></Route>
           <Route path={'/women/womenTop'} element={<Products/>}/>
           <Route path={'/women/womensandle'} element={<Products/>}/>

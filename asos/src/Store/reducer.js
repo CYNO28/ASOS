@@ -6,6 +6,7 @@ import {
 const istate = {
   products: {},
   loading: true,
+  show:true,
 };
 export const reducer = (state = istate, action) => {
   switch (action.type) {
@@ -15,7 +16,11 @@ export const reducer = (state = istate, action) => {
       return { ...state, loading: true };
     case GET_DATA_ERROR:
       return { ...state, loading: false };
-    default:
+      case "Show_join":
+      return { ...state, show: true };
+      case "Hide_join":
+      return { ...state, show: false };
+      default:
       return state;
   }
 };

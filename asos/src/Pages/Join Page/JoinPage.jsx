@@ -2,8 +2,10 @@ import React, {useState} from 'react'
 import Join from '../Join/Join'
 import styles from "./joinpage.module.css"
 import SingIn from '../SignIn/SingIn'
+import { useLocation } from 'react-router-dom'
 
 const JoinPage = () => {
+   
     const [show, setShow] = useState(true)
   return (
     <div>
@@ -21,7 +23,7 @@ const JoinPage = () => {
                 </div>
             </div>
             <div>
-                {show ? <Join/> : <SingIn/>}
+                {show ? <Join setShow={setShow}/> : <SingIn/>}
             </div>
         </div>
     </div>

@@ -1,17 +1,20 @@
 import React from 'react'
+import { UNSAFE_LocationContext, useLocation } from 'react-router-dom'
 import style from './footer.module.css'
 const Footer = () => {
+  let {pathname}=useLocation()
+  let page=pathname.split("/")[1]
+  if(page=="join")return null
   return (
     <div>
-      <hr />
         <div className={style.footerTop}>
           <div className={style.box1}>
-            <img className={style.icon1} src="https://thumbs.dreamstime.com/b/facebook-logo-icon-voronezh-russia-november-square-blue-color-164585769.jpg" alt="" />
+            {/* <img className={style.icon1} src="https://thumbs.dreamstime.com/b/facebook-logo-icon-voronezh-russia-november-square-blue-color-164585769.jpg" alt="" /> */}
             <img className={style.icon1} src="https://thumbs.dreamstime.com/b/new-instagram-camera-logo-icon-purple-pink-vector-modern-gradient-design-illustrations-white-background-ai-138907950.jpg" alt="" />
             <img className={style.icon1} src="https://image.similarpng.com/very-thumbnail/2020/05/Glossy-Snapchat-logo-PNG.png" alt="" />
           </div>
-          <span>|</span>
-          <div className={style.box1}>
+          <span style={{marginLeft:"-230px"}}>|</span>
+          <div className={style.box2}>
             <img className={style.icon2} src="https://images.asos-media.com/navigation/visa-png" alt="" />
           <img className={style.icon2} src="https://images.asos-media.com/navigation/mastercard-png" alt="" />
           <img className={style.icon2} src="https://images.asos-media.com/navigation/pay-pal-png" alt="" />
@@ -57,6 +60,30 @@ const Footer = () => {
             </ul>
           </div>
          </div>
+        </div>
+
+        <div style={{display: "flex",width: "100%",height: "50px" ,justifyContent: "space-between",margin:"auto" ,backgroundColor:"rgba(201, 198, 198, 0.964) "}}>
+         
+         <div style={{display: "flex",width: "60%",height: "40px" ,justifyContent: "space-between",margin:"auto",}}>
+            <div style={{marginTop:"-10px"}}>
+              <p>@ 2022 ASOS</p>
+            </div>
+
+            <div style={{marginTop:"5px"}}>
+              <a href="https://thrift.plus/pages/get-started-asos" style={{textDecoration:"none",color:"black"}}>Privacy & Cookies</a>
+
+                <span style={{marginLeft:"5px",marginRight:"5px"}}>|</span>
+
+              <a href="https://thrift.plus/pages/get-started-asos"style={{textDecoration:"none",color:"black"}}>Ts&Cs</a>
+
+                <span style={{marginLeft:"5px",marginRight:"5px"}}>|</span>
+
+              <a href="https://thrift.plus/pages/get-started-asos"style={{textDecoration:"none",color:"black"}}>Accessibility</a>
+            </div>
+
+         </div>
+         
+
         </div>
     </div>
   )

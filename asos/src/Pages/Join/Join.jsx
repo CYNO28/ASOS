@@ -1,7 +1,24 @@
 import React from 'react'
 import styles from "./join.module.css"
 
-const Join = () => {
+const Join = ({setShow}) => {
+    const [user,setuser]=React.useState({
+        fname:"",
+        lname:"",
+        email:"",
+        password:"",
+
+    })
+    function onchange(e){
+        setuser({...user,[e.target.name]:e.target.value})
+
+    }
+    function onclickhandler(){
+        
+        
+        localStorage.setItem("user",JSON.stringify(user))
+        setShow(false)
+    }   
   return (
     <div>
         <div className={styles.joinSection}>
@@ -28,14 +45,14 @@ const Join = () => {
             <h2 className={styles.heading1}>OR SIGN UP WITH EMAIL</h2>
             <div className={styles.inputDiv}>
                 <label className={styles.label}>EMAIL ADDRESS:</label>
-                <input className={styles.input} type="email" />
+                <input className={styles.input} onChange={onchange} name='email' type="email" />
                 <p className={styles.belowInput}>We'll send your order confirmation here</p>
                 <label className={styles.label}>FIRST NAME:</label>
-                <input className={styles.input} type="name" />
+                <input className={styles.input} onChange={onchange} name='fname' type="name" />
                 <label className={styles.label}>LAST NAME:</label>
-                <input className={styles.input} type="name" />
+                <input className={styles.input} onChange={onchange} name='lname' type="name" />
                 <label className={styles.label}>PASSWORD:</label>
-                <input className={styles.input} type="password" />
+                <input className={styles.input} onChange={onchange} name='password' type="password" />
                 <p className={styles.belowInput}>Must be 10 or more characters</p>
                 <label className={styles.label}>DATE OF BIRTH:</label>
                 <input className={styles.input} type="date" />
@@ -68,7 +85,7 @@ const Join = () => {
                     <p>ASOS Partners</p>
                     <input type="checkbox" />
                 </div>
-                <button className={styles.signinButton}>JOIN ASOS</button>
+                <button className={styles.signinButton} onClick={onclickhandler}>JOIN ASOS</button>
             </div>
            
         </div>

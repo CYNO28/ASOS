@@ -1,7 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import styles from "./signin.module.css"
 
 const SingIn = () => {
+    const navigation = useNavigate()
+    function onclickhandler(){
+        let user=JSON.parse(localStorage.getItem("user"))
+        navigation('/')
+    }
   return (
     <div>
         <div className={styles.joinSection}>
@@ -10,7 +16,7 @@ const SingIn = () => {
                 <input className={styles.input} type="email" />
                 <label className={styles.label}>PASSWORD:</label>
                 <input className={styles.input} type="password" />
-                <button className={styles.signinButton}>SIGN IN</button>
+                <button className={styles.signinButton} onClick={onclickhandler}>SIGN IN</button>
                 <p className={styles.forget}>Forget password?</p>
             </div>
             <h2 className={styles.heading1}>OR SIGN IN WITH...</h2>

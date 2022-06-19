@@ -5,6 +5,7 @@ const SubNav = () => {
   const {pathname}=useLocation()
  const page=pathname.split("/")[1]
   console.log(page)
+  if(page=="join")return null
   return (
     <div className={styles.nav}>
       <div className={styles.wrapper}>

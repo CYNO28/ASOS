@@ -54,49 +54,62 @@
   height: 60px;
   background-color: #2d2d2d;
   color: #fff;
+ 
+}
   /* border: 1px solid red; */
 
-}
+
 .secondLink {
   text-decoration: none;
   color: #fff;
-  font-weight: 700;
-  font-size: 50px;
+  font-size: 2.5rem;
   margin-bottom: 50px;
-  margin-left: 250px;
+  margin-left: 76px;
   margin-right: 20px;
-  margin-top: -8px;
+  margin-top: 5px;
+  letter-spacing:-3px;
+ 
   font-family: "Lexend Deca", sans-serif;
 }
 .secondspan {
+
+ 
   font-size: 60px;
   font-weight: 100;
   margin-top: -12px;
+  margin-top: 5px;
   color: gray;
 }
 .secondspansecnd {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: white;
-  margin-left: 10px;
-  margin-top: 13px;
+  height: 100%;
+  border-right:2px solid #ccc ;
+  padding:0 20px;
+ 
   font-size: 20px;
-  margin-right: 10px;
+ 
   font-family: "Lexend Deca", sans-serif;
 }
 .secondInputGroup {
-  
+  display: flex;
+  align-items: center;
   margin-left: 2%;
   margin-top: 7px;
 }
 .secondInput {
+  padding: 20px;
   border: none;
-  font-weight: 1000;
+  height: 0px;
+
   color: #2d2d2d;
   margin-bottom: 8px;
   border-radius: 25px;
   font-family: "Josefin Slab", serif;
   font-size: 15px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   width: 100%;
 }
 .secondIconBtn {
@@ -107,19 +120,20 @@
 .secondSearchIcon {
   color: black;
   cursor: pointer;
+  background-color: white;
 }
 .secondICOn {
   color: white;
   margin-top: 14px;
   margin-left: 33px;
-  font-size: 28px;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 .secondICOn1{
   margin-top: 12px;
   margin-left: 12px;
   margin-right: 12px;
-  font-size: 28px;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 .dropdown {
