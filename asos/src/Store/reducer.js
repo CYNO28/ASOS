@@ -1,26 +1,21 @@
-const initialState={
-    products:{}
-}
-
-
-
-export const reducer = (state = initialState, {type,payload}) => {
-    switch (type) {
-        case 'GET_DATA':
-            {
-                return {
-                    ...state,
-                    products:payload
-                }
-            }
-        case 'SET_DATA':{
-            return {
-                ...state,
-                
-            }
-        }    
-   default:{
-    return state;
-   }
-    }
-}
+import {
+  GET_DATA_SUCCESS,
+  GET_DATA_LOADING,
+  GET_DATA_ERROR,
+} from "./action.type";
+const istate = {
+  products: {},
+  loading: true,
+};
+export const reducer = (state = istate, action) => {
+  switch (action.type) {
+    case GET_DATA_SUCCESS:
+      return { ...state, products: action.payload, loading: false };
+    case GET_DATA_LOADING:
+      return { ...state, loading: true };
+    case GET_DATA_ERROR:
+      return { ...state, loading: false };
+    default:
+      return state;
+  }
+};

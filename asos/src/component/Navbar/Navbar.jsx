@@ -4,10 +4,11 @@ import { IconButton, Input, InputGroup, InputRightElement} from '@chakra-ui/reac
 import { SearchIcon} from '@chakra-ui/icons'
 import { FaRegHeart ,FaRegQuestionCircle,FaShoppingBag, FaUser, FaUserAlt } from 'react-icons/fa'
 import {BsChatLeftText} from 'react-icons/bs'
-import {Link} from 'react-router-dom'
+import {Link, useLocation} from 'react-router-dom'
 import SubNav from '../subNavbar/SubNav'
  
 const Navbar = ( ) => {
+  const {pathname}=useLocation()
 
 
   return (
@@ -29,7 +30,7 @@ const Navbar = ( ) => {
 
                         <div className={styles.firstdiinsideigmgdiv}>
           
-                            <img src="https://p.kindpng.com/picc/s/192-1929235_indian-flag-button-india-flag-button-png-transparent.png" className={styles.firstdivImg} alt="" srcset="" />
+                            <img src="https://p.kindpng.com/picc/s/192-1929235_indian-flag-button-india-flag-button-png-transparent.png" className={styles.firstdivImg} alt="" />
                             
                         </div>
 
@@ -111,7 +112,7 @@ const Navbar = ( ) => {
                
                </div>
 
-  <SubNav/>
+{pathname=='/'? null: <SubNav/>}
               
                <div  className={styles.thirdDiv}>
                   <Link to="/women" style={{marginLeft:"300px"}} className={styles.thirdbtn}>WOMEN</Link>
