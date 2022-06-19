@@ -11,7 +11,17 @@ const SubNav = () => {
       <div className={styles.wrapper}>
      
         <ul className={styles.navLink}>
-        <header>Sale</header>
+          <li >
+       
+          <a href="">
+
+          Sale
+
+          </a>
+          {/* <div className={styles.uptringle}></div> */}
+
+          <div className={styles.downtringle}></div>
+          </li>
           <li>
             <Link to="#">New in</Link>
             <div className={styles.megaBox}>
