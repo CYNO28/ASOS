@@ -139,12 +139,14 @@
   margin-right: 12px;
   font-size: 1.5rem;
   cursor: pointer;
+ 
 }
 .dropdown {
   position: relative;
   display: inline-block;
   margin-left: 25px;
-  margin-top: 2px;
+  margin-top:-5px;
+
 }
 .dropdown:hover{
   margin-left: 20px;

@@ -15,21 +15,24 @@ const Product = () => {
   }
   let product=JSON.parse(localStorage.getItem('product'))||{}
   const img1=product.imageUrl
+  const img2=product.img1
+  const img3=product.img2
+  const img4=product.img3
+console.log(img2)
   const SliderData = [
     {
       image:
       img1,
     },
     {
-      image:
-        "https://images.asos-media.com/products/jdy-peplum-blouse-in-white/203232469-2?$n_750w$&wid=750&fit=constrain",
+      image:img2||"https://images.asos-media.com/products/jdy-peplum-blouse-in-white/203232469-2?$n_750w$&wid=750&fit=constrain",
     },
     {
-      image:
+      image:img3||
         "https://images.asos-media.com/products/jdy-peplum-blouse-in-white/203232469-3?$n_750w$&wid=750&fit=constrain",
     },
     {
-      image:
+      image:img4||
         "https://images.asos-media.com/products/jdy-peplum-blouse-in-white/203232469-4?$n_750w$&wid=750&fit=constrain",
     },
   ];
