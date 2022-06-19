@@ -5,7 +5,19 @@ import {AiOutlineInfoCircle} from 'react-icons/ai';
 import {BsBag} from 'react-icons/bs';
 
 const Cart = () => {
-    let cartItems=1;
+
+    let cartData = JSON.parse(localStorage.getItem("cart"));
+    console.log(cartData)
+
+    const deleteCartItem = (i) => {
+        for(let j=0; j<cartData.length; j++){
+            if(j===i){
+                cartData.splice(i,1)
+            }
+        }
+        localStorage.setItem("cart", JSON.stringify(cartData));
+    }
+
     const emptyCart = () => {
         return (
             <div className={styles.emptyCartDiv}>
@@ -27,21 +39,25 @@ const Cart = () => {
                             <h3 style={{letterSpacing:"2px"}}>MY BAG</h3>
                             <p className={styles.para}>Items are reserved for 60 minutes</p>
                         </div>
-                        <div className={styles.cartDiv}>
-                            <div className={styles.cartItem}>
-                                <div>
-                                    <img className={styles.image} src="https://images.asos-media.com/products/asos-design-curb-neckchain-with-butterfly-charm-in-multicolour-enamel/202240654-1-gold" alt="" />
+                        {cartData.map((ele,i)=>(
+                            <div key={i} className={styles.cartDiv}>
+                                <div className={styles.cartItem}>
+                                    <div>
+                                        <img className={styles.image} src={ele.imageUrl} alt="" />
+                                    </div>
+                                    <div>
+                                        <h4>{ele.price}</h4>
+                                        <p className={styles.itemName}>{ele.title}</p>
+                                    </div>
+                                    <div onClick={()=>deleteCartItem(i)}>
+                                        <h2 className={styles.removeItem}
+                                        >x</h2>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h4>$16.00</h4>
-                                    <p className={styles.itemName}>ASOS DESIGN curb neckchain with butterfly charm in multicolour enamel</p>
-                                </div>
-                                <div>
-                                    <h2>x</h2>
-                                </div>
+                                <hr className={styles.hr}/>
                             </div>
-                            <hr className={styles.hr}/>
-                        </div>
+                        ))}
+                        
                         <div className={styles.subtotal}>
                             <div className={styles.subtotalText}>
                                 <h4>SUB-TOTAL</h4>
@@ -91,7 +107,7 @@ const Cart = () => {
     }
   return (
     <div>
-        {cartItems===0 ? emptyCart() : itemsInCart()}
+        {cartData.length===0 ? emptyCart() : itemsInCart()}
     </div>
   )
 }

@@ -6,6 +6,7 @@ import { FaRegHeart ,FaRegQuestionCircle,FaShoppingBag, FaUser, FaUserAlt } from
 import {BsChatLeftText} from 'react-icons/bs'
 import {Link, useLocation} from 'react-router-dom'
 import SubNav from '../subNavbar/SubNav'
+import { FiSearch } from 'react-icons/fi';
  
 const Navbar = ( ) => {
   const {pathname}=useLocation()
@@ -22,7 +23,7 @@ const Navbar = ( ) => {
                               
                         </div>
                             
-                        <div    className={styles.firstdiinsideigmgdiv} style={{paddingTop:"5px"}}>
+                        <div    className={styles.firstdiinsideigmgdiv}>
                             
                         <Link to="/help"  className={styles.firstdiinsideA} >Help & FAQs</Link>
                           
@@ -64,7 +65,8 @@ const Navbar = ( ) => {
                                 <IconButton  className={styles.secondIconBtn}//add hover to it
                                 colorScheme='dark'
                                 size='sm'
-                                icon={<SearchIcon className={styles.secondSearchIcon}/>}/>
+                                icon={<FiSearch className={styles.secondSearchIcon}/>}
+                                />
                             
                             </InputRightElement>
                     </InputGroup>
@@ -102,11 +104,13 @@ const Navbar = ( ) => {
                         </div>
                      </div>
                     
-                    
+                    <div className={styles.iconDiv}>
                       <Link to="/likeProduct"><FaRegHeart className={styles.secondICOn}/></Link>
                       
                       
                       <Link to="/cart"><FaShoppingBag  className={styles.secondICOn}/></Link>
+                    </div>
+                      
 
           
                

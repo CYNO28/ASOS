@@ -135,6 +135,9 @@
     height: 30px;
     width: 190px;
 }
+.removeItem{
+    cursor: pointer;
+}
 
 
 /* emptyCart */
