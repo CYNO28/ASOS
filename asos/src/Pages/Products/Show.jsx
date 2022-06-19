@@ -1,8 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import style from './show.module.css'
-const Show = ({element}) => {
-    
-    function onClickHandler(){
+const Show= ({element}) => {
+let product=JSON.parse(localStorage.getItem('product'))||{}
+const navigate=useNavigate()    
+function onClickHandler(){
+product=element
+localStorage.setItem('product',JSON.stringify(product))
+navigate('/ProductDetails')
 
     }
   return (

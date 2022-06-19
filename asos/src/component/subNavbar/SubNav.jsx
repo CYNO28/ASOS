@@ -1,7 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import styles from "./subNav.module.css";
 const SubNav = () => {
+  const {pathname}=useLocation()
+ const page=pathname.split("/")[1]
+  console.log(page)
   return (
     <div className={styles.nav}>
       <div className={styles.wrapper}>
@@ -22,16 +25,16 @@ const SubNav = () => {
                       <a href="#">Clothing</a>
                     </li>
                     <li>
-                      <a href="#">Shoes</a>
+                      <Link to={page=="men"?'/men/menshoes':'/women/shoes'}>Shoes</Link>
                     </li>
                     <li>
                       <a href="#">Accessories</a>
                     </li>
                     <li>
-                      <a href="#">Face + Body</a>
+                      <Link to={"/bodycare/skincare"}>Face + Body</Link>
                     </li>
                     <li>
-                      <a href="#">Topshop</a>
+                      <Link to={page=="men"?'/men/tshirts':'/women/womenTop'}>Topshop</Link>
                     </li>
                     <li>
                       <a href="#">Back in stock</a>
@@ -88,10 +91,11 @@ const SubNav = () => {
                       <a href="#">New in</a>
                     </li>
                     <li>
-                      <a href="#">Dresses</a>
+                      <Link to={'/women/dress'}>Dresses</Link>
                     </li>
                     <li>
-                      <a href="#">Tops</a>
+                    <Link to={page=="men"?'/men/T-shirts':'/women/womenTop'}>Tops</Link>
+
                     </li>
                     <li>
                       <a href="#">Shorts</a>
@@ -115,7 +119,7 @@ const SubNav = () => {
                       <a href="#">Exclusives at ASOS</a>
                     </li>
                     <li>
-                      <a href="#">Jeans</a>
+                      <Link to={'/men/jeans'}>Jeans</Link>
                     </li>
                   </ul>
                 </div>

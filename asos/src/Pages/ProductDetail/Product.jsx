@@ -8,10 +8,17 @@ import { FiTruck } from "react-icons/fi";
 import styles from "./product.module.css";
 
 const Product = () => {
+  function onClickHandler(){
+    const cart=JSON.parse(localStorage.getItem('cart'))||[]
+    cart.push(product)
+    localStorage.setItem('cart',JSON.stringify(cart))
+  }
+  let product=JSON.parse(localStorage.getItem('product'))||{}
+  const img1=product.imageUrl
   const SliderData = [
     {
       image:
-        "https://images.asos-media.com/products/jdy-peplum-blouse-in-white/203232469-1-clouddancer?$n_640w$&wid=513&fit=constrain",
+      img1,
     },
     {
       image:
@@ -93,7 +100,7 @@ const Product = () => {
             <option value="">XL</option>
           </select>
           <div>
-            <button className={styles.btn}>ADD TO BAG </button>
+            <button onClick={onClickHandler} className={styles.btn}>ADD TO BAG </button>
             <FaRegHeart />
           </div>
           <div>

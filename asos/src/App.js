@@ -12,6 +12,7 @@ import SingIn from './Pages/SignIn/SingIn';
 import Home from './Pages/home/Home';
 import Products from './Pages/Products/ProductsM';
 import Cart from './Pages/Cart/Cart';
+import JoinPage from './Pages/Join Page/JoinPage';
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path={'/women'} element={<Women></Women>}></Route> 
           <Route path={'/join'} element={<JoinPage></JoinPage>}></Route>
           <Route path={'/join'} element={<Join></Join>}></Route>
+          <Route path={'/ProductDetails'} element={<Product></Product>}></Route>
           <Route path={'/women/womenTop'} element={<Products/>}/>
           <Route path={'/women/womensandle'} element={<Products/>}/>
           <Route path={'/women/shoes'} element={<Products/>}/>
@@ -33,7 +35,7 @@ function App() {
           <Route path={'/women/gymwear'} element={<Products/>}/>
           <Route path={'/men/shirts'} element={<Products/>}/>
           <Route path={'/men/jeans'} element={<Products/>}/>
-          <Route path={'/men/T-shirts'} element={<Products/>}/>
+          <Route path={'/men/tshirts'} element={<Products/>}/>
           <Route path={'/men/menshoes'} element={<Products/>}/>
           <Route path={'/men/mencap'} element={<Products/>}/>
           <Route path={'/brand/nike'} element={<Products/>}/>
