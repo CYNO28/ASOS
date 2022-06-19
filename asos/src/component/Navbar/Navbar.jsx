@@ -157,7 +157,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <Link to="/likeProduct">
+        <Link to="/likepage">
           <FaRegHeart className={styles.secondICOn} />
         </Link>
 

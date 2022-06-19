@@ -13,6 +13,7 @@ import Home from './Pages/home/Home';
 import Products from './Pages/Products/ProductsM';
 import Cart from './Pages/Cart/Cart';
 import JoinPage from './Pages/Join Page/JoinPage';
+import Likepage from './Pages/likePage/Likepage';
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path={'/men'} element={<Men></Men>}></Route>/
           <Route path={'/women'} element={<Women></Women>}></Route> 
           <Route path={'/join'} element={<JoinPage></JoinPage>}></Route>
+          <Route path={'/likepage'} element={<Likepage></Likepage>}></Route>
           <Route path={'/ProductDetails'} element={<Product></Product>}></Route>
           <Route path={'/women/womenTop'} element={<Products/>}/>
           <Route path={'/women/womensandle'} element={<Products/>}/>
