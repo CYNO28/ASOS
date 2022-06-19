@@ -6,7 +6,7 @@ const Footer = () => {
   let page=pathname.split("/")[1]
   if(page=="join")return null
   return (
-    <div>
+    <div className={style.footer}>
         <div className={style.footerTop}>
           <div className={style.box1}>
             {/* <img className={style.icon1} src="https://thumbs.dreamstime.com/b/facebook-logo-icon-voronezh-russia-november-square-blue-color-164585769.jpg" alt="" /> */}

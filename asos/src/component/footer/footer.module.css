@@ -3,8 +3,7 @@
     justify-content: space-evenly;
     width: 60%;
     margin: auto;
-    background-color: red;
-    /* padding: 5px; */
+    padding: 10px;
 }
 .icon1{
     cursor: pointer;
@@ -92,4 +91,8 @@
     margin-right: 5px;
     border: 1px solid blue;
     border-radius: 10px;
+}
+.footer{
+    border-top:1px solid #ccc ;
+
 }
