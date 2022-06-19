@@ -1,0 +1,45 @@
+.divI {
+  /* border: 1px solid black; */
+  margin-top: 7%;
+}
+.divII {
+  /* border: 1px solid blue; */
+  width: 45%;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+}
+.divIII {
+  font-size: 40px;
+}
+.divIV {
+  font-size: 15px;
+  /* border: 1px solid blue; */
+  padding-top: 15px;
+  padding-bottom: 18px;
+}
+.divV {
+  font-size: 13px;
+  color: rgb(128, 125, 125);
+}
+.divVI {
+  /* border: 1px solid blue; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 30px;
+}
+.divVII {
+  /* border: 1px solid black; */
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 12%;
+  padding-right: 12%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+  background-color: black;
+}
+.divVII:hover {
+  background-color: #2d2d2d;
+}
