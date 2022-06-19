@@ -21,7 +21,7 @@ dispatch(getData(name))
 setProducts(Data.products)
 
 
-console.log(loading,Data.loading)
+
 },[])
 console.log(Data.products)
   
