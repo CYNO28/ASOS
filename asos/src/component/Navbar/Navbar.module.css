@@ -86,12 +86,16 @@
   text-decoration: none;
   color: white;
   height: 100%;
-  border-right:2px solid #ccc ;
+  border-right:1px solid #525050 ;
+  border-left:1px solid #525050 ;
   padding:0 20px;
  
   font-size: 20px;
  
   font-family: "Lexend Deca", sans-serif;
+}
+.secondspansecnd:hover{
+  background-color: #525050;
 }
 .secondInputGroup {
   display: flex;
