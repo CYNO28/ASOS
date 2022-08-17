@@ -3,13 +3,13 @@
   <p>We tried to build the clone of the website ASOS. ASOS is a British online fashion and cosmetic retailer. The company was founded in 2000 in London, primarily aimed at young adults. <p/>
   <h1>Tech stack</h1>
   <div>react</div>
-  - redux 
-  chakra-ui
-  Github
-  HTML
-  CSS
-  Javascripy
-  
+   <div>redux</div>
+  <div>chakra-ui</div>
+  <div>Github</div>
+  <div>HTML</div>
+  <div>CSS </div>
+  <div>Javascript</div>
+  <a href="https://asos-one.vercel.app/">https://asos-one.vercel.app/</a>
 
 ![Screenshot (71)](https://user-images.githubusercontent.com/93369701/184952101-f4943141-7db3-4f46-97c9-1398bda33db4.png)
 ![Screenshot (70)](https://user-images.githubusercontent.com/93369701/184952113-619e3bc2-a3ad-4534-a75d-0122bcbadafe.png)
