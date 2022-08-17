@@ -9,6 +9,7 @@
   <div>HTML</div>
   <div>CSS </div>
   <div>Javascript</div>
+  <h1>Deployed Link</h1>
   <a href="https://asos-one.vercel.app/">https://asos-one.vercel.app/</a>
 
 ![Screenshot (71)](https://user-images.githubusercontent.com/93369701/184952101-f4943141-7db3-4f46-97c9-1398bda33db4.png)
