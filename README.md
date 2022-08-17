@@ -2,7 +2,7 @@
 <h1>ASOS</h1>
   <p>We tried to build the clone of the website ASOS. ASOS is a British online fashion and cosmetic retailer. The company was founded in 2000 in London, primarily aimed at young adults. <p/>
   <h1>Tech stack</h1>
-  react
+  <div>react</div>
   redux 
   chakra-ui
   Github
